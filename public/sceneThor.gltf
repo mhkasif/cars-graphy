@@ -1,0 +1,454 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 542,
+      "max": [
+        0.98232197761535645,
+        0.12776699662208557,
+        1.3368920087814331
+      ],
+      "min": [
+        0.51009899377822876,
+        -0.028572000563144684,
+        0.2398190051317215
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 6504,
+      "componentType": 5126,
+      "count": 542,
+      "max": [
+        0.99979597330093384,
+        0.99999463558197021,
+        0.99430203437805176
+      ],
+      "min": [
+        -1,
+        -0.99999463558197021,
+        -0.99247574806213379
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 542,
+      "max": [
+        0.62980002164840698,
+        1.9953000545501709
+      ],
+      "min": [
+        0.0070000002160668373,
+        1.0060000419616699
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 1470,
+      "max": [
+        541
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 13008,
+      "componentType": 5126,
+      "count": 3245,
+      "max": [
+        0.48835301399230957,
+        0.1792369931936264,
+        1.529000997543335
+      ],
+      "min": [
+        -0.59296900033950806,
+        -0.092689000070095062,
+        0.72883200645446777
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 51948,
+      "componentType": 5126,
+      "count": 3245,
+      "max": [
+        0.9999387264251709,
+        0.99993598461151123,
+        0.99816334247589111
+      ],
+      "min": [
+        -0.9999387264251709,
+        -1,
+        -0.99996638298034668
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 4336,
+      "componentType": 5126,
+      "count": 3245,
+      "max": [
+        0.99378502368927002,
+        1.9945000410079956
+      ],
+      "min": [
+        0.0087000001221895218,
+        1.0090839862823486
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 5880,
+      "componentType": 5125,
+      "count": 13596,
+      "max": [
+        3244
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 90888,
+      "componentType": 5126,
+      "count": 1169,
+      "max": [
+        0.14318500459194183,
+        0.17099399864673615,
+        0.91244298219680786
+      ],
+      "min": [
+        -0.24780300259590149,
+        -0.104032002389431,
+        -0.00085499999113380909
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 104916,
+      "componentType": 5126,
+      "count": 1169,
+      "max": [
+        0.99873405694961548,
+        0.99996554851531982,
+        0.96574807167053223
+      ],
+      "min": [
+        -0.99873405694961548,
+        -0.99987995624542236,
+        -0.99996387958526611
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 30296,
+      "componentType": 5126,
+      "count": 1169,
+      "max": [
+        0.96668601036071777,
+        1.9885740280151367
+      ],
+      "min": [
+        0.012729000300168991,
+        1.0085300207138062
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 60264,
+      "componentType": 5125,
+      "count": 5418,
+      "max": [
+        1168
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Lil_CJ (https://sketchfab.com/calebjean2001)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/thor-ec5dff2934f34a88a02c1284e9a95c98",
+      "title": "Thor"
+    },
+    "generator": "Sketchfab-8.7.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 81936,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 39648,
+      "byteOffset": 81936,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 118944,
+      "byteOffset": 121584,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 240528,
+      "uri": "sceneThor.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "texturesThor/40_-herothor01s04wp.herothor01s04wp_1_0_0_baseColor.png"
+    },
+    {
+      "uri": "textures/40_-herothor01s04wp.herothor01s04wp_1_0_0_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/40_herothor01S0501_1_0_0_baseColor.png"
+    },
+    {
+      "uri": "textures/40_herothor01S0501_1_0_0_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/40_herothor01S0502_1_0_0_baseColor.png"
+    },
+    {
+      "uri": "textures/40_herothor01S0502_1_0_0_metallicRoughness.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "40_-herothor01s04wp.herothor01s04wp_1_0_0",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 1,
+        "metallicRoughnessTexture": {
+          "index": 1,
+          "texCoord": 0
+        },
+        "roughnessFactor": 0.26657774390243905
+      }
+    },
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "40_herothor01S0501_1_0_0",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 2,
+          "texCoord": 0
+        },
+        "metallicFactor": 1,
+        "metallicRoughnessTexture": {
+          "index": 3,
+          "texCoord": 0
+        },
+        "roughnessFactor": 1
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "40_herothor01S0502_1_0_0",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 4,
+          "texCoord": 0
+        },
+        "metallicFactor": 1,
+        "metallicRoughnessTexture": {
+          "index": 5,
+          "texCoord": 0
+        },
+        "roughnessFactor": 0.89195884146341464
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 9,
+            "POSITION": 8,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3,
+        4,
+        5
+      ],
+      "name": "0.obj.cleaner.materialmerger.gles"
+    },
+    {
+      "mesh": 0,
+      "name": ""
+    },
+    {
+      "mesh": 1,
+      "name": ""
+    },
+    {
+      "mesh": 2,
+      "name": ""
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    },
+    {
+      "sampler": 0,
+      "source": 4
+    },
+    {
+      "sampler": 0,
+      "source": 5
+    }
+  ]
+}
+
