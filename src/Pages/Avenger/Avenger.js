@@ -8,6 +8,8 @@ import {
   useGLTFLoader,
 } from "drei";
 import React, { Suspense, useRef } from "react";
+import { useSpring,animated } from "react-spring";
+
 import { Canvas, useFrame } from "react-three-fiber";
 import { AmbientLight } from "three";
 import AvengerDetails from "../../Components/AvengersDetails/AvengerDetails";
@@ -63,6 +65,8 @@ const Loading = () => {
   return <h1>Loading</h1>;
 };
 const Avenger = () => {
+  const props = useSpring({delay:200,config:{duration:1200},to:{opacity: 1}, from: {opacity: 0}})
+
   return (
     <div className="container">
       <div className="avenger-model">
@@ -117,9 +121,9 @@ const Avenger = () => {
 /> */}
         </Canvas>
       </div>
-      <div className="avenger-details">
+      <animated.div style={props} className="avenger-details">
         <AvengerDetails />
-      </div>
+      </animated.div>
     </div>
   );
 };

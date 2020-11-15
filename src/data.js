@@ -7,6 +7,7 @@ Thanos:{
     weight:'985 lbs',
     aliases:["Mad Titan","Master","Thanos Rex",'Masterlord','Overmaster'],
     origin:"Eternal colony, Titan (moon of Saturn)",
-    powers:['Superhuman', 'StrengthSuperhuman',' DurabilityMagicMysticismBlack', 'ArtsImmortality']
+    powers:['Superhuman', 'StrengthSuperhuman',' DurabilityMagicMysticismBlack', 'ArtsImmortality'],
+    movies:["avengers_age-of-ultron.jpeg","avengers-endgame.jpg"]
 }
 }
