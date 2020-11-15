@@ -1,0 +1,30 @@
+.home{
+    background-image: url("../../assets/images/Avengers-3D-Logo.jpeg");
+    background-position:center;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(0.7);
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+    .title{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+        opacity: 0.2;
+        h1{
+        font-size: 280px;
+        letter-spacing: 4px;
+        text-shadow: rgba( red, 1.0);
+text-align: center;
+color: green;
+transform: translateY(-30%);
+}
+    }
+}

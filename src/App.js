@@ -1,10 +1,13 @@
 import './App.css';
 import React from 'react'
+import Home from './Pages/Home/Home';
+import Avenger from './Pages/Avenger/Avenger';
 function App() {
   return (
-    <div className="App">
-app
-    </div>
+<React.Fragment>
+{/* <Home/> */}
+<Avenger/>
+</React.Fragment>
   );
 }
 

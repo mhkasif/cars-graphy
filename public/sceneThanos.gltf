@@ -861,31 +861,31 @@
       "uri": "texturesThanos/gauntlet_soul_stone_baseColor.png"
     },
     {
-      "uri": "textures/gauntlet_mind_stone_baseColor.png"
+      "uri": "texturesThanos/gauntlet_mind_stone_baseColor.png"
     },
     {
-      "uri": "textures/gauntlet_reality_stone_baseColor.png"
+      "uri": "texturesThanos/gauntlet_reality_stone_baseColor.png"
     },
     {
-      "uri": "textures/thanos_head_baseColor.png"
+      "uri": "texturesThanos/thanos_head_baseColor.png"
     },
     {
-      "uri": "textures/gauntlet_time_stone_baseColor.png"
+      "uri": "texturesThanos/gauntlet_time_stone_baseColor.png"
     },
     {
-      "uri": "textures/gauntlet_space_stone_baseColor.png"
+      "uri": "texturesThanos/gauntlet_space_stone_baseColor.png"
     },
     {
-      "uri": "textures/gauntlet_metal_baseColor.png"
+      "uri": "texturesThanos/gauntlet_metal_baseColor.png"
     },
     {
-      "uri": "textures/thanos_helmet_baseColor.png"
+      "uri": "texturesThanos/thanos_helmet_baseColor.png"
     },
     {
-      "uri": "textures/gauntlet_power_stone_baseColor.png"
+      "uri": "texturesThanos/gauntlet_power_stone_baseColor.png"
     },
     {
-      "uri": "textures/thanos_body_baseColor.png"
+      "uri": "texturesThanos/thanos_body_baseColor.png"
     }
   ],
   "materials": [

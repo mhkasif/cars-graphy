@@ -354,25 +354,25 @@
       "uri": "texturesNebula/40_-Nebulawp1.Nebulawp1_1_0_0_baseColor.png"
     },
     {
-      "uri": "textures/40_-Nebulawp.Nebulawp_1_0_0_metallicRoughness.png"
+      "uri": "texturesNebula/40_-Nebulawp.Nebulawp_1_0_0_metallicRoughness.png"
     },
     {
-      "uri": "textures/40_-svnebula03wp02.svnebula03wp02_1_0_0_baseColor.png"
+      "uri": "texturesNebula/40_-svnebula03wp02.svnebula03wp02_1_0_0_baseColor.png"
     },
     {
-      "uri": "textures/40_-svnebula03wp02.svnebula03wp02_1_0_0_metallicRoughness.png"
+      "uri": "texturesNebula/40_-svnebula03wp02.svnebula03wp02_1_0_0_metallicRoughness.png"
     },
     {
-      "uri": "textures/40_svnebula0301_1_0_0_baseColor.png"
+      "uri": "texturesNebula/40_svnebula0301_1_0_0_baseColor.png"
     },
     {
-      "uri": "textures/40_svnebula0301_1_0_0_metallicRoughness.png"
+      "uri": "texturesNebula/40_svnebula0301_1_0_0_metallicRoughness.png"
     },
     {
-      "uri": "textures/40_svnebula0302_1_0_0_baseColor.png"
+      "uri": "texturesNebula/40_svnebula0302_1_0_0_baseColor.png"
     },
     {
-      "uri": "textures/40_svnebula0302_1_0_0_metallicRoughness.png"
+      "uri": "texturesNebula/40_svnebula0302_1_0_0_metallicRoughness.png"
     }
   ],
   "materials": [

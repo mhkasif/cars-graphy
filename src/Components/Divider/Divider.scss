@@ -1,0 +1,11 @@
+.divider{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: -15px;
+    &-main{
+        width: 95%;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.338);
+
+    }
+}

@@ -132,10 +132,10 @@
       "uri": "texturesGroot/Default_baseColor.png"
     },
     {
-      "uri": "textures/Default_metallicRoughness.png"
+      "uri": "texturesGroot/Default_metallicRoughness.png"
     },
     {
-      "uri": "textures/Default_normal.png"
+      "uri": "texturesGroot/Default_normal.png"
     }
   ],
   "materials": [

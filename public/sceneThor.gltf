@@ -230,19 +230,19 @@
       "uri": "texturesThor/40_-herothor01s04wp.herothor01s04wp_1_0_0_baseColor.png"
     },
     {
-      "uri": "textures/40_-herothor01s04wp.herothor01s04wp_1_0_0_metallicRoughness.png"
+      "uri": "texturesThor/40_-herothor01s04wp.herothor01s04wp_1_0_0_metallicRoughness.png"
     },
     {
-      "uri": "textures/40_herothor01S0501_1_0_0_baseColor.png"
+      "uri": "texturesThor/40_herothor01S0501_1_0_0_baseColor.png"
     },
     {
-      "uri": "textures/40_herothor01S0501_1_0_0_metallicRoughness.png"
+      "uri": "texturesThor/40_herothor01S0501_1_0_0_metallicRoughness.png"
     },
     {
-      "uri": "textures/40_herothor01S0502_1_0_0_baseColor.png"
+      "uri": "texturesThor/40_herothor01S0502_1_0_0_baseColor.png"
     },
     {
-      "uri": "textures/40_herothor01S0502_1_0_0_metallicRoughness.png"
+      "uri": "texturesThor/40_herothor01S0502_1_0_0_metallicRoughness.png"
     }
   ],
   "materials": [

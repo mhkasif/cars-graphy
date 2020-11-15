@@ -256,13 +256,13 @@
       "uri": "texturesHulk/blinn2SG_baseColor.png"
     },
     {
-      "uri": "textures/blinn2SG_metallicRoughness.png"
+      "uri": "texturesHulk/blinn2SG_metallicRoughness.png"
     },
     {
-      "uri": "textures/lambert3SG_metallicRoughness.png"
+      "uri": "texturesHulk/lambert3SG_metallicRoughness.png"
     },
     {
-      "uri": "textures/lambert3SG_normal.png"
+      "uri": "texturesHulk/lambert3SG_normal.png"
     }
   ],
   "materials": [
