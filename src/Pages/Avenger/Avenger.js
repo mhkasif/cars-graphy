@@ -49,17 +49,17 @@ const HtmlContent = () => {
   const ref = useRef(null);
   useFrame(() => (ref.current.rotation.y += 0.01));
   return (
-    <Section factor={1.5} offset={1}>
-      <group position={[0, 250, 0]}>
-        <mesh castShadow ref={ref} position={[0, -35, 0]}>
-          <Model />
-        </mesh>
-        {/*  <Html fullscreen>
-          <div className="sub-container">hello</div>
-        </Html> */}
-      </group>
-    </Section>
-  );
+    <mesh castShadow ref={ref} position={[0, -60, 0]}>
+    <Model />
+    </mesh>
+    //{/*  <Html fullscreen>
+      // <group position={[0, 250, 0]}>
+      // <Section factor={1.5} offset={1}>
+      // </Section>
+      // </group>
+      //     <div className="sub-container">hello</div>
+     //   </Html> */}
+    )
 };
 const Loading = () => {
   return <h1>Loading</h1>;
