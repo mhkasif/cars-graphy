@@ -15,13 +15,15 @@ import { AmbientLight } from "three";
 import AvengerDetails from "../../Components/AvengersDetails/AvengerDetails";
 import { Section } from "../../Components/Sections/Sections";
 import "./Avenger.scss";
+import * as THREE from 'three'
 
 softShadows();
+const camera = new THREE.PerspectiveCamera( 75, (window.innerWidth) / window.innerHeight, 0.1, 1000 );
 
 const Lights = () => {
   return (
     <React.Fragment>
-      <directionalLight
+     { /* <directionalLight
         castShadow
         shadow-mapSize-width={1024}
         shadow-camera-top={10}
@@ -30,27 +32,31 @@ const Lights = () => {
         shadow-mapSize-height={1024}
         position={[0, 10, 0]}
         intensity={1}
-      />
+      /> */}
       <directionalLight position={[10, 20, 0]} intensity={1} />
       <directionalLight position={[-10, 20, 0]} intensity={1} />
       <directionalLight position={[0, 0, 20]} intensity={0.4} />
+      <directionalLight position={[0, 5, -10]} intensity={1.4} />
+
       <spotLight position={[1000, 1000, 0]} intensity={1} />
       <ambientLight intensity={0.7} />
     </React.Fragment>
   );
 };
-const Model = () => {
-  const gltf = useGLTFLoader("/sceneThanos.gltf", true);
+const Model = ({primitive,data}) => {
+  const gltf = useGLTFLoader(`/scene${data.name}.gltf`, true);
   console.log(gltf);
-  return <primitive object={gltf.scene} dispose={null} />;
+
+  return <primitive position={primitive} object={gltf.scene} dispose={null} />;
 };
 
-const HtmlContent = () => {
+const HtmlContent = ({positions,data}) => {
+  console.log(positions);
   const ref = useRef(null);
   useFrame(() => (ref.current.rotation.y += 0.01));
   return (
-    <mesh castShadow ref={ref} position={[0, -60, 0]}>
-    <Model />
+    <mesh scale={positions.scale}  ref={ref} position={positions.meshPosition}>
+    <Model data={data} primitive={positions.primitive} />
     </mesh>
     //{/*  <Html fullscreen>
       // <group position={[0, 250, 0]}>
@@ -64,19 +70,28 @@ const HtmlContent = () => {
 const Loading = () => {
   return <h1>Loading</h1>;
 };
-const Avenger = () => {
+const Avenger = ({positions,data}) => {
+
+  camera.position.z=positions.cameraPositionZ
+    camera.position.y=positions.cameraPositionY
+    camera.updateProjectionMatrix()
+
+  console.log(data,positions);
   const props = useSpring({delay:200,config:{duration:1200},to:{opacity: 1}, from: {opacity: 0}})
+
 
   return (
     <div className="container">
       <div className="avenger-model">
         <Canvas
-          shadowMap
+          // shadowMap
           colorManagement
-          camera={{ position: [0, 30, 190], fov: 50 }}
+          updateDefaultCamera
+          // camera={{ position: [0, 30, 190], fov: 50 }}
+          camera={camera}
         >
-          <Lights />
-          <directionalLight
+          <Lights intensity={positions.intensity}/>
+          {/* <directionalLight
             castShadow
             shadow-mapSize-width={1024}
             shadow-camera-top={10}
@@ -95,7 +110,7 @@ const Avenger = () => {
             blur={1} // Amount of blue (default=1)
             far={10} // Focal distance (default=10)
             resolution={256} // Rendertarget resolution (default=256)
-          />
+          /> */}
           {/*  <group>
       <mesh
       receiveShadow
@@ -110,7 +125,7 @@ const Avenger = () => {
       </group>
       */}
           <Suspense fallback={null}>
-            <HtmlContent />
+            <HtmlContent data={data} positions={positions} />
           </Suspense>
           <OrbitControls></OrbitControls>
           {/* <Shadow
@@ -122,7 +137,7 @@ const Avenger = () => {
         </Canvas>
       </div>
       <animated.div style={props} className="avenger-details">
-        <AvengerDetails />
+        <AvengerDetails data={data} />
       </animated.div>
     </div>
   );

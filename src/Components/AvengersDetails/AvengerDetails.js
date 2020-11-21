@@ -1,45 +1,46 @@
-import React from "react";
+import React, { useContext } from "react";
 import Divider from "../Divider/Divider";
 import "./AvengerDetails.scss";
 import { Data } from "../../data";
 import Pic from "../../assets/avengerAppearence/avengers-endgame.jpg";
 import {animated, useSpring} from 'react-spring'
-
+import {StateContext} from '../../App'
 const AvengerDetails = () => {
+const data=useContext(StateContext)
 
   return (
     <React.Fragment >
       <h4 className="title">AVENGERS</h4>
       <div className="red-line"></div>
-      <h1 className="avenger-name">{Data.Thanos.name}</h1>
+      <h1 className="avenger-name">{data?.name}</h1>
       <Divider />
       <h4>Background</h4>
       <div className="avenger-background-table">
         <table>
           <tr>
             <td className="question">Height</td>
-            <td className="answer">{Data.Thanos.height}</td>
+            <td className="answer">{data?.height}</td>
           </tr>
           <tr>
             <td>Weight</td>
-            <td>{Data.Thanos.weight}</td>
+            <td>{data?.weight}</td>
           </tr>
           <tr>
             <td>Eyes</td>
-            <td>{Data.Thanos.eyes}</td>
+            <td>{data?.eyes}</td>
           </tr>
           <tr>
             <td>Gender</td>
-            <td>{Data.Thanos.gender}</td>
+            <td>{data?.gender}</td>
           </tr>
           <tr>
             <td>Origin</td>
-            <td>{Data.Thanos.origin}</td>
+            <td>{data?.origin}</td>
           </tr>
           <tr>
             <td className="array-field">Powers</td>
             <td>
-              {Data.Thanos.powers.reduce(
+              {data?.powers.reduce(
                 (acc, currentValue) => `${currentValue}, ${acc}`,
                 ""
               )}
@@ -48,7 +49,7 @@ const AvengerDetails = () => {
           <tr>
             <td className="array-field">Aliases</td>
             <td>
-              {Data.Thanos.aliases.reduce(
+              {data?.aliases.reduce(
                 (acc, currentValue) => `${currentValue}, ${acc}`,
                 ""
               )}
